@@ -1,0 +1,46 @@
+<!-- the root of the file for a homepage must be index.html  this is a test code-->
+
+<!-- the shortcut for writing the html skeleton is "!" + "press enter" -->
+
+<!-- Code 201 lab 1 task is to create a webpage that accepts user input and , based on that, displays messages back to the user -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code 201 class 1 lab</title>
+
+    <style>
+      body {
+        font-family: monospace;
+        background-color: orange;
+        color: black;
+      }
+      li {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <script>
+        let user = prompt("What is your name?");
+        console.log("The user's name is " + user);
+
+        let colour = prompt("What is your favourite colour?");
+        console.log("Your favourite colour is " + colour);
+
+        alert("Hi there " + user + ". Your favourite colour is " + colour);
+      </script>
+      <h1>Class 1 lab, WELCOME TO THE DANGER ZONE!</h1>
+      <p style="color: red">What is your name?</p>
+      <p style="color: yellow">What is your quest?</p>
+      <p style="color: green">What is your favourite colour?</p>
+      <p style="color: blue">What is the velocity of an unladen swallow?</p>
+    </main>
+    <footer></footer>
+  </body>
+</html>
