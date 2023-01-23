@@ -17,6 +17,7 @@
         font-family: monospace;
         background-color: orange;
         color: black;
+        text-align: center;
       }
       li {
         color: pink;
@@ -30,16 +31,87 @@
         let user = prompt("What is your name?");
         console.log("The user's name is " + user);
 
+        let quest = prompt("What is your quest?");
+        console.log("Your quest is " + quest);
+
         let colour = prompt("What is your favourite colour?");
         console.log("Your favourite colour is " + colour);
 
-        alert("Hi there " + user + ". Your favourite colour is " + colour);
+        let swallowVelocity = prompt(
+          "What is the velocity of an unladen swallow?"
+        );
+        console.log("The velocity of an unladen swallow is " + swallowVelocity);
+
+        alert(
+          "Hi there " +
+            user +
+            ". Your quest is " +
+            quest +
+            ". Your favourite colour is " +
+            colour +
+            ". Is " +
+            swallowVelocity +
+            " the velocity of a european or african swallow?"
+        );
       </script>
       <h1>Class 1 lab, WELCOME TO THE DANGER ZONE!</h1>
-      <p style="color: red">What is your name?</p>
-      <p style="color: yellow">What is your quest?</p>
-      <p style="color: green">What is your favourite colour?</p>
-      <p style="color: blue">What is the velocity of an unladen swallow?</p>
+      <p
+        style="
+          color: red;
+          background-color: white;
+          text-align: center;
+          width: 500px;
+          border: 5px;
+          padding: 5px;
+          font-size: 15px;
+          font-weight: bold;
+        "
+      >
+        What is your name?
+      </p>
+      <p
+        style="
+          color: rgb(173, 173, 4);
+          background-color: pink;
+          text-align: center;
+          width: 500px;
+          border: 5px;
+          padding: 5px;
+          font-size: 15px;
+          font-weight: bold;
+        "
+      >
+        What is your quest?
+      </p>
+      <p
+        style="
+          color: green;
+          background-color: rgb(244, 78, 244);
+          text-align: center;
+          width: 500px;
+          border: 5px;
+          padding: 5px;
+          font-size: 15px;
+          font-weight: bold;
+        "
+      >
+        What is your favourite colour?
+      </p>
+      <p
+        style="
+          color: blue;
+          background-color: #fd3333;
+          text-align: center;
+          width: 500px;
+          border: 5px;
+          padding: 5px;
+          font-size: 15px;
+          font-weight: bold;
+        "
+      >
+        What is the velocity of an unladen swallow?
+      </p>
+      <p style="background-color: red; border: 5px" ;>test</p>
     </main>
     <footer></footer>
   </body>
